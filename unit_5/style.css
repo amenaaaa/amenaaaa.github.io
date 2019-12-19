@@ -28,6 +28,7 @@ aside {
 
 article {
 	background-color: #E89C6C;
+    font-family: 'Simonetta', cursive;
 	border: 1px black solid;
 	padding: 20px
 }
@@ -54,7 +55,7 @@ h1 {
 	margin-top: 5px;
 }
 
-.two {
+#art {
 	font-family: 'Simonetta', cursive;
 	width: 30em;
 }
