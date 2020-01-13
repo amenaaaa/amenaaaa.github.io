@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Simonetta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+
+body {
+	color: #0E2547;
+	background-color: #FFF;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+header {
+	background-color: #60BEC4;
+	width: 100%;
+	margin: auto;
+
+}
+
+nav {
+	padding: .5em;
+}
+
+h1 {
+	color: #0E2547;
+	font-size: 3.6em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+	text-align: left;
+}
+
+h2{
+	color: #ffce30;
+	font-size: 3em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+}
+
+h3{
+	color: #60BEC4;
+	font-size: 3em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+}
+
+h4{
+	color: purple;
+	font-size: 3em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+}
+
+h5{
+	color: #89de78;
+	font-size: 3em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+}
+span {
+	font-variant: small-caps;
+	font-family: Tahoma, sans serif;
+	letter-spacing: .30em;
+	font-size: 1.5em;
+	color: #521d7a;
+}
+
+img {
+	width: 80%;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+hr {
+	border-top: 1px solid black;
+	width: 80%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+  margin: 1em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #000000;
+  margin: 3em;
+}
+
+footer {
+	padding: 2em;
+	font-size: .7em;
+	margin-top: 2em;
+}
+
+#wrapper {
+   padding: 1em;
+}
+
+#one {
+	padding: 1em;
+	margin: 1em;
+}
+
+#two {
+	padding: 1em;
+}
+
+#middle {
+	margin: 2em;
+	padding: 2em;
+	background-color: #f9e6ff;
+}
+
+#quote {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+	margin: auto;
+}
+
+#left{
+	float: left;
+	width: 32%;
+}
+
+#right {
+	background-color: white;
+	float: right;
+	width: 62%;
+	padding: 1em;
+}
+
+#logo {
+	float: left;
+}
+
+#headshot {
+	border-radius: 50%;
+}
+
+#three {
+	padding: 1em;
+	background-color: #f9e6ff;
+}
+
+#bulletin {
+	padding: 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.column {
+  float: left;
+  width: 23.5%;
+  padding: .5em;
+  margin-bottom: 2em;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 900px){
+	.column {
+		float: none;
+		width: 50%;
+		margin: auto;
+	}
+}
+
+@media only screen and (max-width: 690px){
+	#right, #left, .column {
+		float: none;
+		width: 80%;
+		margin: auto;
+		padding: 1em;
+	}
+}
+
+@media only screen and (max-width: 350px){
+	nav {
+		display: inline;
+	}
+}
+
