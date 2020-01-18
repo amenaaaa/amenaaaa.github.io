@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight|Simonetta&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Courier+Prime|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+body {
+	color: #0E2547;
+	background-color: #f9e6ff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	color: #0E2547;
+	font-size: 3.6em;
+	font-family: 'Limelight', cursive;
+	margin: .25em;
+	text-align: left;
+}
+
+span {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 3em;
+	margin: auto;
+}
+
+.wrapper {
+	padding: 5em;
+}
